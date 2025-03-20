@@ -2,6 +2,8 @@
 CarbonBuddy is a simplified, everyday carbon footprint calculator. It allows users to sign up, calculate their carbon footprint, obtain their results, and view resources to reduce your carbon footprint. Below is a video demonstrating the application.
 
 ## Video Demonstration
+Below is a video demonstration of the application, which focuses on a new user's experience.
+
 
 ## Key Features 
 The key features this application includes are:
@@ -14,4 +16,4 @@ The key features this application includes are:
 ## Installing and Running CarbonBuddy
 To open the application, unzip the zip file. Then, when opened in your preferred editing tool, run npm install to install packages and npm run dev to run the application. 
 
-### Note: due to technical difficulties on my end, I created the application using node 18.14.0 and npm 9.3.1, which may be needed for the application to run correctly.
+#### Note: due to technical difficulties on my end, I created the application using node 18.14.0 and npm 9.3.1, which may be needed for the application to run correctly.
