@@ -87,9 +87,6 @@ input {
 }
 
 /* Styling for Calculate.tsx */
-
-/* Note: this worked when it was in the overarching container, but it won't work as well 
-   when divided into other sections. */
 .calculationContainer {
   background-color: mediumseagreen;
   border-radius: 10px;
@@ -101,7 +98,6 @@ input {
 
 .calculationCard {
   margin-top: 1em;
-  /* display: inline-flex; */
 }
 
 .emissionsButtons {
@@ -150,5 +146,5 @@ input {
 
 /* Styling for Profile.tsx */
 .profileButtons {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
