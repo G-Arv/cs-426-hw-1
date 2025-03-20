@@ -31,11 +31,8 @@ function Profile() {
 
             <h2>Change Settings</h2>
             <div>
-                <div>
-                <button className="profileButton" onClick={() => handleDeleteAccount()}>Delete Account</button>
-                </div>
-                <div>
-                    <button className="profileButton" onClick={() => navigate("/")}>Log Out</button>
+                <div className="profileButtons">
+                    <button onClick={() => handleDeleteAccount()}>Delete Account</button>
                 </div>
             </div>
 
