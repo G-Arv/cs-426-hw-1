@@ -1,10 +1,6 @@
 # CarbonBuddy
 CarbonBuddy is a simplified, everyday carbon footprint calculator. It allows users to sign up, calculate their carbon footprint, obtain their results, and view resources to reduce your carbon footprint. Below is a video demonstrating the application.
 
-## Video Demonstration
-Below is a video demonstration of the application, which focuses on a new user's experience.
-
-
 ## Key Features 
 The key features this application includes are:
 * User Profiles: The user is able to create a profile that includes their daily entries
