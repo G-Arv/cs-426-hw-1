@@ -1,0 +1,154 @@
+:root {
+  font-family: Verdana, Georgia, Garamond, 'Times New Roman';
+  line-height: 1.5;
+  font-weight: 500;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: darkgreen;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: darkseagreen;
+  }
+}
+/* Styling for Input Boxes Across App*/
+input {
+  border: 2px solid darkolivegreen;
+  border-radius: 5px;
+}
+
+/* Styling for LogIn.tsx */
+.loginCard {
+  margin-top: 20px;
+  display: flex;
+  align-content: center;
+}
+
+/* Styling for LogIn.tsx and SignUp.tsx submission forms*/
+.credentialForm {
+  display: inline-block;
+  align-content: center;
+  margin-top: 10px;
+}
+
+/* Styling for Calculate.tsx */
+
+/* Note: this worked when it was in the overarching container, but it won't work as well 
+   when divided into other sections. */
+.calculationContainer {
+  background-color: mediumseagreen;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 2em;
+  width: 900px;
+}
+
+.calculationCard {
+  margin-top: 1em;
+  /* display: inline-flex; */
+}
+
+.emissionsButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.calculationForm {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.calculationLabel {
+  font-weight: 600;
+  color: black;
+  margin-right: 0.5em;
+}
+
+.calculationInput {
+  height: 2em;
+  margin-right: 2em;
+}
+
+/* Styling for Resources.tsx*/
+.resourceCard {
+  background-color: lightblue;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.resourceCard:hover {
+  box-shadow: 2px 2px 10px lightslategray, 3px 3px 10px lightslategray;
+}
+
+.resourceParagraph {
+  text-align: left;
+}
+
+.emissionsCharts {
+  margin : 0 auto;
+}
+
+/* Styling for Profile.tsx */
+.profileButtons {
+  margin-bottom: 10px
+}

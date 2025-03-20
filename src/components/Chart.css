@@ -1,0 +1,12 @@
+.emissionsCharts {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.emissionsChartsHeader {
+    display: block;
+    align-content: center;
+    justify-content: center;
+}
