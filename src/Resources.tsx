@@ -97,10 +97,6 @@ function Resources() {
                 </ul>
             </p>
         </div>
-        <div className="buttonCard">
-            <button onClick={() => navigate("/results")}>Results</button>
-            <button onClick={() => navigate("/")}>Log Out</button>
-        </div>
         </>
     )
 }
