@@ -10,8 +10,7 @@ The key features this application includes are:
 * Resource Library: The user can learn new ways to improve their carbon footprint and learn more about climate change and sustainability
 
 ## Video Demonstration
-[Screen Recording 2025-03-21 at 10.24.25 PM.zip](https://github.com/user-attachments/files/19399766/Screen.Recording.2025-03-21.at.10.24.25.PM.zip)
-
+[CarbonBuddy Video Demo](https://github.com/user-attachments/files/19399766/Screen.Recording.2025-03-21.at.10.24.25.PM.zip)
 
 ## Installing and Running CarbonBuddy
 To open the application, unzip the zip file. Then, when opened in your preferred editing tool, run npm install to install packages and npm run dev to run the application. 
